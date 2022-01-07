@@ -1,12 +1,5 @@
-/* TO DO
- * - Enviar feedback de acordo com a condição de tempo
- * - Gatilho para rodar feedback diariamente
- * 
- * - Funcionalidade para adicionar ou remover pergunta do forms
- */
-
-const PLANILHA = 'https://docs.google.com/spreadsheets/d/1gQHaMm_TsYkZwU2smmjocVgaYcA6dWv8rMtei0iQc7E/edit#gid=245297426';
-const FORM = 'https://docs.google.com/forms/d/e/1FAIpQLSdpd-aff1014WYUkR-yPxnStesioRhT0P9O7HC0VWGIa5w-gw/viewform';
+const PLANILHA = 'https://docs.google.com/spreadsheets/d/1A6Nsx0i5MMr0T_onWKrKKVIuALbBt9U75lcNTzBsk-M/edit#gid=462904825';
+const FORM = 'https://docs.google.com/forms/d/e/1FAIpQLSfSrbOGqwGYEzI_v1zez6rBznD3y00orEM_iql79nloHTAw-w/viewform';
 
 function sendPromoSegmentada(){
   var info = getInfoCampanha();
